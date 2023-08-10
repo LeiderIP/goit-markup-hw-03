@@ -37,11 +37,13 @@
 
 /* header */
 .header{
+    border: 1px solid #eee;
+}
+.header_topbar{
     height: 80px;
     display: flex;
     justify-content: space-around;  
     align-items: center;
-    border: 1px solid #eee;
 }
 
 .main_title{
