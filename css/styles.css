@@ -16,8 +16,7 @@
 
 .container{
     width: 1200px;
-    padding: 0px 215px 0px 215px;
-    margin: 0px;
+    margin: 0 auto;
 }
 
 .body{
@@ -25,7 +24,6 @@
     color: var(--primary-color);
     font-size:14px;
     letter-spacing: 0.03em;
-    width: 1600px;
 }
 
 .style{
@@ -67,6 +65,7 @@
     top: 32px;
     left: 453px;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .button_nav .button_links:hover{
@@ -79,11 +78,8 @@
 
 .list_contacts{
     justify-content: space-between;
-    display: inline-flex;
-    width: 281px;
-    height: 16px;
-    top: 32px;
-    left: 453px;
+    display: flex;
+    gap: 50px;
 }
 
 .contacts_link{
@@ -101,12 +97,12 @@
 /* title */
 .title{
     background: var(--background-color-1);
-    width: 1600px;
-    height: 600px;
-    top: 80px;
-    left: -4px;
+    padding: 200px 0;
+    display: flex;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title_text{
@@ -119,7 +115,7 @@
     font-weight: 900;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    padding: 200px 452px 40px 452px;
+    width: 696px;
 }
 
 .button_title{
@@ -163,7 +159,7 @@
 }
 
 /* section 2  services images*/
-.list_images{
+.list_image{
     display: flex;
     padding-bottom: 94px;
     gap: 30.26px;
@@ -188,7 +184,6 @@
 /* section 3 team */
 .team{
     background-color: var(--background-color-2);
-    width: 1600px;
     height: 648px;
     top: 1510px;
 }
@@ -256,7 +251,6 @@
 .footer{
     background-color: var(--background-color-1);
     height: 252px;
-    width: 1600px;
 }
 
 .footer_page{
@@ -289,9 +283,9 @@
 .list_images{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    padding-bottom: 82px;
+    padding: 0 0 82px 0;
     gap: 30px;
+    justify-content: center;
 }
 
 .images_items{
