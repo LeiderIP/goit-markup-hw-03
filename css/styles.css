@@ -35,6 +35,12 @@
     text-decoration: none;
 }
 
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 /* header */
 .header{
     border: 1px solid #eee;
@@ -103,7 +109,7 @@
 /* title */
 .title{
     background: var(--background-color-1);
-    padding: 200px 0;
+    padding: 94px 0;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -144,7 +150,7 @@
 
 /* section 1 services */
 .services{
-    padding-top: 95px;
+    padding: 94px 0;
 }
 
 .service_name{
@@ -184,13 +190,7 @@
 }
 
 .about{
-    padding: 94px 0 94px;
-}
-
-.images_what_we_do{
-    width: 370px;
-    height: 294px;
-    top: 1061px;
+    padding: 94px 0;
 }
 
 /* section 3 team */
@@ -198,7 +198,7 @@
     background-color: var(--background-color-2);
     height: 648px;
     top: 1510px;
-    padding: 94px 215px;
+    padding: 94px 0;
 }
 
 .list_team{
@@ -216,12 +216,6 @@
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
-}
-
-.team_image{
-    width: 270px;
-    height: 260px;
-    top: 1365px;
 }
 
 .team_name{
@@ -296,17 +290,23 @@
     border-radius: 4px;
 }
 
+.portfolio_content{
+    padding: 106px 0 82px 0;
+}
+
 .list_options{
     display: flex;
-    justify-content: center;
-    padding: 112px 0 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 611px;
+    height: 54px;
+    margin-bottom: 50px;
     gap: 8px;
 }
 
 .list_images{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0 82px 0;
     gap: 30px;
     justify-content: center;
 }
