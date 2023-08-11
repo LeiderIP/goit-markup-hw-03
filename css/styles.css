@@ -196,8 +196,7 @@
 /* section 3 team */
 .team{
     background-color: var(--background-color-2);
-    height: 648px;
-    top: 1510px;
+
     padding: 94px 0;
 }
 
