@@ -35,6 +35,11 @@
     text-decoration: none;
 }
 
+.focus_tab:focus{
+    color: var(--primary-color);
+    background-color: ivory;
+}
+
 .img {
 	display: block;
 	max-width: 100%;
