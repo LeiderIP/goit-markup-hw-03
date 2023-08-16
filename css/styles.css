@@ -39,6 +39,11 @@
     color: var(--primary-color);
 }
 
+.tab:focus{
+    color: var(--primary-color);
+    background-color: var(--detail-color);
+}
+
 .img {
 	display: block;
 	max-width: 100%;
