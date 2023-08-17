@@ -36,7 +36,8 @@
 }
 
 .focus_tab:focus{
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--detail-color);
 }
 
 .tab:focus{
@@ -110,12 +111,15 @@
     line-height: 1.17;
 }
 
-
 .contacts_link:hover{
     color:var(--primary-color);
 }
 
 /* title */
+.portfolio{
+    display: none;
+}
+
 .title{
     background: var(--background-color-1);
     padding: 94px 0;
